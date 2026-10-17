@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="125" viewBox="0 0 180 125">
+  <title>Learning collective variables</title>
+  <desc>A schematic folded configuration curve projected onto a one-dimensional coordinate.</desc>
+  <g fill="none" stroke-linecap="round"><path d="M19 39C35 5 65 75 87 39S142 15 155 51S120 88 88 68S39 90 23 62" stroke="#847457" stroke-width="2.6"/><path d="M32 102h117" stroke="#b7a78b" stroke-width="1.2"/><path d="M57 64v29m39-25v25m36-31v31" stroke="#c7bca1" stroke-dasharray="2 4"/></g>
+  <g fill="#a16f39"><circle cx="32" cy="32" r="3"/><circle cx="59" cy="53" r="3"/><circle cx="96" cy="29" r="3"/><circle cx="148" cy="36" r="3"/><circle cx="132" cy="79" r="3"/><circle cx="57" cy="102" r="3"/><circle cx="96" cy="102" r="3"/><circle cx="132" cy="102" r="3"/></g>
+</svg>

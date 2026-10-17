@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="170" viewBox="0 0 250 170">
+  <title>Double-well potential</title>
+  <desc>A schematic of U(x) = (x squared minus one) squared, with two minima and a central barrier.</desc>
+  <g fill="none" stroke-linecap="round">
+    <path d="M25 18v126h206" stroke="#a89b80" stroke-width="1"/>
+    <path d="M25 55h206M25 97h206" stroke="#ded4b9" stroke-width=".8" stroke-dasharray="3 5"/>
+    <path d="M40 25C48 53 53 120 74 126S104 62 125 60S157 130 177 126S205 54 213 25" stroke="#6e5943" stroke-width="2.6"/>
+    <path d="M76 126Q126 5 177 126" stroke="#b49b67" stroke-width="1.2" stroke-dasharray="3 5"/>
+    <path d="M164 100l13 26 2-16" stroke="#b49b67" stroke-width="1.2"/>
+  </g>
+  <circle cx="75" cy="125" r="5.5" fill="#a16f39" stroke="#fcf8e6" stroke-width="1.5"/>
+  <g fill="#6e5943" font-family="Georgia,serif" font-size="12"><text x="5" y="16">U</text><text x="235" y="148">x</text><text x="71" y="161">−1</text><text x="122" y="161">0</text><text x="176" y="161">1</text></g>
+</svg>
