@@ -195,42 +195,62 @@ details p { border-left: 2px solid #b5a58f; padding-left: 15px; margin-top: 10px
 }
 /* Teaching */
 .teaching-item {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 80px 55px 72px;
   align-items: baseline;
-  gap: 4px 18px;
+  column-gap: 14px;
+  row-gap: 6px;
 }
 
 .teaching-item + .teaching-item {
-  margin-top: 20px;
-  padding-top: 18px;
+  margin-top: 16px;
+  padding-top: 16px;
   border-top: 1px solid #d9cfb9;
 }
 
 .teaching-item h3 {
+  min-width: 0;
   margin: 0;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.6;
 }
 
-.teaching-item .teaching-meta {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 4px 14px;
-  margin: 0 0 0 auto;
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.teaching-meta span {
+.teaching-place,
+.teaching-role,
+.teaching-term {
+  font-size: 13px;
+  line-height: 1.6;
   white-space: nowrap;
 }
 
-.teaching-description {
-  flex-basis: 100%;
-  margin: 8px 0 0;
-  font-size: 15px;
+.teaching-place,
+.teaching-term {
+  color: var(--muted);
+}
+
+.teaching-role {
+  font-weight: bold;
+}
+
+.teaching-term {
+  text-align: right;
+}
+
+/* Stack the course above its details on narrower screens. */
+@media (max-width: 1000px) {
+  .teaching-item {
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 18px;
+  }
+
+  .teaching-item h3 {
+    grid-column: 1 / -1;
+  }
+
+  .teaching-term {
+    text-align: left;
+  }
+}
   line-height: 1.65;
 }
