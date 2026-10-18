@@ -442,8 +442,8 @@ details p {
 .teaching-item h3 {
   min-width: 0;
   margin: 0;
-  font-size: 15px;
-  font-weight: normal;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 1.6;
 }
 
@@ -461,7 +461,7 @@ details p {
 }
 
 .teaching-role {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .teaching-term {
