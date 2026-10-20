@@ -278,7 +278,8 @@ p {
 
 .work-image img {
   width: 100%;
-  aspect-ratio: 180 / 125;
+  height: auto;
+  aspect-ratio: auto;
   object-fit: contain;
 }
 
