@@ -43,6 +43,6 @@ Only follow these steps when you intentionally want the site to be public:
 8. Keep **Enforce HTTPS** enabled where available. Check the site on desktop and mobile, and test all links.
 
 
-## Credits and ownership
+## Acknowlodge
 
 Code was written from scratch with the help of GPT-6.1 Sol. The color scheme and layout were inspired by [Chris Camaño's homepage](https://www.chriscamano.com/).
