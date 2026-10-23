@@ -1,6 +1,6 @@
 # Yuntao Lu — Personal Academic Homepage
 
-An original, buildless academic homepage written in English using HTML, CSS, and a small amount of JavaScript. No templates were forked or imported. The visual direction follows the requested reference: cream paper, warm brown navigation, serif typography, a left profile column, and an academic content column.
+An original, buildless academic homepage written in HTML, CSS, and JavaScript.
 
 ## Current status
 
@@ -35,10 +35,6 @@ Place a photo at `assets/portrait.jpg`. In `index.html`, change the portrait ima
 
 Create `assets/files/`, upload your actual CV as `cv.pdf`, and uncomment the CV anchor in the `profile-links` block in `index.html`. The link is deliberately absent until the file exists. Add Google Scholar, ORCID, and other profiles only after checking their exact URLs.
 
-### Add publications
-
-The Recent Work entries are descriptions of research interests, not published papers. Replace or extend each `work-item` article with a verified title, author list, venue or status, image, and actual PDF or code links. No publication status, advisor, award, or identifier has been invented. Review the biography, talk description, and news before publication.
-
 To adjust the main palette, change `--paper`, `--ink`, and `--bar` in `styles.css`. To adjust column widths and spacing, edit `.page` and its responsive rules.
 
 ## Publish later with the free GitHub Pages address
@@ -54,18 +50,7 @@ Only follow these steps when you intentionally want the site to be public:
 7. Wait for the deployment to succeed; then visit **https://yuntao2022.github.io/**. Publication can take up to ten minutes.
 8. Keep **Enforce HTTPS** enabled where available. Check the site on desktop and mobile, and test all links.
 
-The repository is named `yuntao2022.github.io` so it can become the account's user homepage without an extra repository-name segment in the URL. No domain purchase is needed. GitHub Free requires public source for Pages; it is entirely fine to keep this repository private and preview locally in the meantime.
-
-## Update later
-
-Edit a file on GitHub using its pencil button and choose **Commit changes**, or edit a local clone and push your commit. Once Pages is enabled, commits to the publishing branch automatically update the public website.
-
-## Official documentation
-
-- [GitHub Pages quickstart](https://docs.github.com/en/pages/quickstart)
-- [Publishing source settings](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-- [About repository visibility](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility)
 
 ## Credits and ownership
 
-Code and schematic SVG assets were written from scratch for Yuntao Lu. The design was visually informed by the requested reference at https://www.chriscamano.com/; no source code, photographs, publication images, or templates were copied. This repository does not grant a public open-source license by default; the owner can choose one later.
+Code was written from scratch with the help of GPT-6.1 Sol. The color scheme and layout were inspired by [Chris Camaño's homepage](https://www.chriscamano.com/).
