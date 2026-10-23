@@ -2,10 +2,6 @@
 
 An original, buildless academic homepage written in HTML, CSS, and JavaScript.
 
-## Current status
-
-This repository is intended to remain **private** until the owner explicitly decides to publish. No GitHub Pages deployment workflow is included, and creating or updating this source code does not itself publish a website. Do not enable Pages or change repository visibility until you are ready.
-
 ## Preview on your Mac
 
 1. On the repository page, select **Code → Download ZIP** and unzip it, or clone it with GitHub Desktop.
