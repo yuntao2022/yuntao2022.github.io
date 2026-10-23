@@ -652,3 +652,14 @@ details p {
     break-inside: avoid;
   }
 }
+
+.chinese-name {
+  font-family:
+    "Songti SC",
+    "Noto Serif CJK SC",
+    "Source Han Serif SC",
+    "SimSun",
+    serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
