@@ -2,13 +2,11 @@
 
 An original, buildless academic homepage written in HTML, CSS, and JavaScript.
 
-## Preview on your Mac
+## Preview
 
 1. On the repository page, select **Code → Download ZIP** and unzip it, or clone it with GitHub Desktop.
 2. Double-click `index.html` to open the homepage in your browser. No installation, account, build, or server is required.
 3. Edit the files in VS Code or another text editor and refresh the browser to see changes.
-
-Optional: from the downloaded project folder, run `python3 -m http.server 8000 --bind 127.0.0.1` and open `http://127.0.0.1:8000`. Press Control-C to stop the server. The binding keeps this preview on your own computer.
 
 ## Edit your content
 
@@ -29,9 +27,7 @@ Create `assets/files/`, upload your actual CV as `cv.pdf`, and uncomment the CV 
 
 To adjust the main palette, change `--paper`, `--ink`, and `--bar` in `styles.css`. To adjust column widths and spacing, edit `.page` and its responsive rules.
 
-## Publish later with the free GitHub Pages address
-
-Only follow these steps when you intentionally want the site to be public:
+## Publish with the GitHub Pages address
 
 1. Review the content and repository history, and replace any remaining draft content.
 2. With GitHub Free, the Pages source repository must be public. In repository **Settings → General → Danger Zone → Change repository visibility**, change it to **Public** when you are ready. GitHub's confirmation dialog describes the consequences. A paid plan that supports private Pages source repositories can keep source private, but that alone does not make the published website private.
@@ -43,6 +39,6 @@ Only follow these steps when you intentionally want the site to be public:
 8. Keep **Enforce HTTPS** enabled where available. Check the site on desktop and mobile, and test all links.
 
 
-## Acknowlodge
+## Acknowledgment
 
-Code was written from scratch with the help of GPT-6.1 Sol. The color scheme and layout were inspired by [Chris Camaño's homepage](https://www.chriscamano.com/).
+I wrote the code from scratch with the help of GPT-6.1 Sol. The color scheme and layout were inspired by [Chris Camaño's homepage](https://www.chriscamano.com/).
