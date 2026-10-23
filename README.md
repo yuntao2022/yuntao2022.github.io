@@ -17,10 +17,6 @@ Optional: from the downloaded project folder, run `python3 -m http.server 8000 -
 | `index.html` | Biography, research topics, talks, news, contact information, and links |
 | `styles.css` | Colors, fonts, spacing, two-column layout, mobile layout, and print layout |
 | `script.js` | Current-year footer enhancement; the site works without it |
-| `assets/portrait.svg` | Initials placeholder; replace it with your own photograph |
-| `assets/double-well.svg` | Original schematic research illustration |
-| `assets/collective-variables.svg` | Original schematic research illustration |
-| `assets/favicon.svg` | Browser-tab icon |
 | `.nojekyll` | Tells GitHub Pages to serve these static files directly |
 
 ### Add your photograph
