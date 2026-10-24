@@ -670,9 +670,7 @@ details p {
   margin: 12px auto 0;
 }
 
-.visitor-map img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
+/* Remove the widget's default minimum height. */
+.visitor-map #mapmyvisitors-widget {
+  min-height: 0 !important;
 }
