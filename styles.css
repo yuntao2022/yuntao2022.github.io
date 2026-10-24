@@ -663,3 +663,16 @@ details p {
   font-weight: 400;
   letter-spacing: 0.05em;
 }
+
+.visitor-map {
+  width: 220px;
+  max-width: 100%;
+  margin: 24px auto 0;
+  text-align: center;
+}
+
+.visitor-map img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
