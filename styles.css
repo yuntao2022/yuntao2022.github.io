@@ -665,13 +665,13 @@ details p {
 }
 
 .visitor-map {
-  width: 220px;
+  width: 100px;
   max-width: 100%;
-  margin: 24px auto 0;
-  text-align: center;
+  margin: 12px auto 0;
 }
 
 .visitor-map img {
+  width: 100%;
   max-width: 100%;
   height: auto;
   margin: 0 auto;
